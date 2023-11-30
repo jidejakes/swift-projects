@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06751A19253A8C2500A6BA8B /* rights.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 06751A18253A8C2500A6BA8B /* rights.pdf */; };
+		0685C2A32536578C008BF69F /* Market_Deco.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0685C2A22536578C008BF69F /* Market_Deco.ttf */; };
+		06D794F12532D3B800ED28E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D794F02532D3B800ED28E3 /* AppDelegate.swift */; };
+		06D794F52532D3B800ED28E3 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D794F42532D3B800ED28E3 /* InformationViewController.swift */; };
+		06D794FA2532D3BB00ED28E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D794F92532D3BB00ED28E3 /* Assets.xcassets */; };
+		06D794FD2532D3BB00ED28E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D794FB2532D3BB00ED28E3 /* LaunchScreen.storyboard */; };
+		06D795212532D68500ED28E3 /* UniversalLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D795202532D68500ED28E3 /* UniversalLibrary.swift */; };
+		06D79527253459DC00ED28E3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06D79526253459DC00ED28E3 /* Default-568h@2x.png */; };
+		6755D0475B119F5C2451D622 /* Pods_Yuut_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A508ECD2DD26579B001FFB9D /* Pods_Yuut_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06751A18253A8C2500A6BA8B /* rights.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = rights.pdf; sourceTree = "<group>"; };
+		0685C2A22536578C008BF69F /* Market_Deco.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Market_Deco.ttf; sourceTree = "<group>"; };
+		06D794ED2532D3B800ED28E3 /* Yuut!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yuut!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D794F02532D3B800ED28E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06D794F42532D3B800ED28E3 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		06D794F92532D3BB00ED28E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06D794FC2532D3BB00ED28E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06D794FE2532D3BB00ED28E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06D795202532D68500ED28E3 /* UniversalLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversalLibrary.swift; sourceTree = "<group>"; };
+		06D79526253459DC00ED28E3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		286BC2C1ADF0F5AD86346F01 /* Pods-Yuut!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yuut!.release.xcconfig"; path = "Target Support Files/Pods-Yuut!/Pods-Yuut!.release.xcconfig"; sourceTree = "<group>"; };
+		A508ECD2DD26579B001FFB9D /* Pods_Yuut_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yuut_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57802FFA3FCD12A367CF992 /* Pods-Yuut!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yuut!.debug.xcconfig"; path = "Target Support Files/Pods-Yuut!/Pods-Yuut!.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06D794EA2532D3B800ED28E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6755D0475B119F5C2451D622 /* Pods_Yuut_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06D794E42532D3B800ED28E3 = {
+			isa = PBXGroup;
+			children = (
+				06D79526253459DC00ED28E3 /* Default-568h@2x.png */,
+				06D794EF2532D3B800ED28E3 /* Yuut! */,
+				06D794EE2532D3B800ED28E3 /* Products */,
+				0FCD22A09AAFF804ACC612FD /* Pods */,
+				0D65DB85F60B1088C2F92C77 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06D794EE2532D3B800ED28E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06D794ED2532D3B800ED28E3 /* Yuut!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06D794EF2532D3B800ED28E3 /* Yuut! */ = {
+			isa = PBXGroup;
+			children = (
+				06D794F02532D3B800ED28E3 /* AppDelegate.swift */,
+				06D794F92532D3BB00ED28E3 /* Assets.xcassets */,
+				06D794FB2532D3BB00ED28E3 /* LaunchScreen.storyboard */,
+				06D794FE2532D3BB00ED28E3 /* Info.plist */,
+				0685C2A22536578C008BF69F /* Market_Deco.ttf */,
+				06D794F42532D3B800ED28E3 /* InformationViewController.swift */,
+				06D795202532D68500ED28E3 /* UniversalLibrary.swift */,
+				06751A18253A8C2500A6BA8B /* rights.pdf */,
+			);
+			path = "Yuut!";
+			sourceTree = "<group>";
+		};
+		0D65DB85F60B1088C2F92C77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A508ECD2DD26579B001FFB9D /* Pods_Yuut_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FCD22A09AAFF804ACC612FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F57802FFA3FCD12A367CF992 /* Pods-Yuut!.debug.xcconfig */,
+				286BC2C1ADF0F5AD86346F01 /* Pods-Yuut!.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06D794EC2532D3B800ED28E3 /* Yuut! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06D795172532D3BC00ED28E3 /* Build configuration list for PBXNativeTarget "Yuut!" */;
+			buildPhases = (
+				9F9896BDC36D3C71E8DFC759 /* [CP] Check Pods Manifest.lock */,
+				06D794E92532D3B800ED28E3 /* Sources */,
+				06D794EA2532D3B800ED28E3 /* Frameworks */,
+				06D794EB2532D3B800ED28E3 /* Resources */,
+				587BAF52E881EF97E7F0A0B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yuut!";
+			productName = "End Sars";
+			productReference = 06D794ED2532D3B800ED28E3 /* Yuut!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06D794E52532D3B800ED28E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = jidejakes;
+				TargetAttributes = {
+					06D794EC2532D3B800ED28E3 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 06D794E82532D3B800ED28E3 /* Build configuration list for PBXProject "Yuut!" */;
+			compatibilityVersion = "Xcode 11.4";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06D794E42532D3B800ED28E3;
+			productRefGroup = 06D794EE2532D3B800ED28E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06D794EC2532D3B800ED28E3 /* Yuut! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06D794EB2532D3B800ED28E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D794FD2532D3BB00ED28E3 /* LaunchScreen.storyboard in Resources */,
+				0685C2A32536578C008BF69F /* Market_Deco.ttf in Resources */,
+				06D794FA2532D3BB00ED28E3 /* Assets.xcassets in Resources */,
+				06D79527253459DC00ED28E3 /* Default-568h@2x.png in Resources */,
+				06751A19253A8C2500A6BA8B /* rights.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		587BAF52E881EF97E7F0A0B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yuut!/Pods-Yuut!-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yuut!/Pods-Yuut!-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yuut!/Pods-Yuut!-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F9896BDC36D3C71E8DFC759 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yuut!-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06D794E92532D3B800ED28E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D795212532D68500ED28E3 /* UniversalLibrary.swift in Sources */,
+				06D794F52532D3B800ED28E3 /* InformationViewController.swift in Sources */,
+				06D794F12532D3B800ED28E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06D794FB2532D3BB00ED28E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06D794FC2532D3BB00ED28E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06D795152532D3BB00ED28E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06D795162532D3BB00ED28E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06D795182532D3BC00ED28E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F57802FFA3FCD12A367CF992 /* Pods-Yuut!.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = WN5AQL8MTW;
+				INFOPLIST_FILE = "$(SRCROOT)/Yuut!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jidejakes.yuut;
+				PRODUCT_NAME = "Yuut!";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06D795192532D3BC00ED28E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286BC2C1ADF0F5AD86346F01 /* Pods-Yuut!.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = WN5AQL8MTW;
+				INFOPLIST_FILE = "$(SRCROOT)/Yuut!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jidejakes.yuut;
+				PRODUCT_NAME = "Yuut!";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06D794E82532D3B800ED28E3 /* Build configuration list for PBXProject "Yuut!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D795152532D3BB00ED28E3 /* Debug */,
+				06D795162532D3BB00ED28E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06D795172532D3BC00ED28E3 /* Build configuration list for PBXNativeTarget "Yuut!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D795182532D3BC00ED28E3 /* Debug */,
+				06D795192532D3BC00ED28E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06D794E52532D3B800ED28E3 /* Project object */;
+}
