@@ -1,0 +1,6 @@
+framework module Pods_Yuut_ {
+  umbrella header "Pods-Yuut!-umbrella.h"
+
+  export *
+  module * { export * }
+}
